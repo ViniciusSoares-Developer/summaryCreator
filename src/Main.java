@@ -41,7 +41,7 @@ public class Main {
 
         }while (!sc.next().equalsIgnoreCase("x"));
 
-        System.out.println("Do wish Create(c) or Alter(a) table?");
+        System.out.println("Do wish Create/Re-create(c) or adding(a) for table?");
         String selection = sc.next();
 
         if (!new File(path).isFile()) new File(path);
